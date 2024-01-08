@@ -78,7 +78,7 @@ body {
 
 .MAIN1 {
   background-image: linear-gradient(#070211, #07021100),
-    url("/images/Vectorrr.png");
+    url("../images/Vectorrr.png");
   background-repeat: no-repeat;
   border-radius: 16px;
   margin: 50px 140px 120px;
