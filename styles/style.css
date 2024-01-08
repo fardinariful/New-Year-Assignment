@@ -141,9 +141,25 @@ body {
   text-align: justify;
   margin: 140px;
 }
-.img{
+.imgs {
   border-radius: 16px;
-  margin-left: 0px 140px;
-   
+  display: flex;
+}
+.last {
+  text-align: center;
+}
+.sub {
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
 
+  font-weight: 900;
+
+  text-transform: capitalize;
+}
+.paragraph2 {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  padding: 30px 300px;
+  font-weight: 200;
 }
