@@ -185,15 +185,15 @@ body {
 .email {
   border-radius: 50px 0px 0px 50px;
   border: 0;
-  
   text-align: center;
   font-family: Inter;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  outline: none;
+ 
+  
 }
-.Subscribe {
+ .Subscribe {
   border-radius: 0px 50px 50px 0px;
   border: 0;
   background: #f00;
@@ -203,11 +203,16 @@ body {
   font-family: "Inter", serif;
   font-size: 18px;
   font-weight: 600;
-}
-.contact {
-  display: inline;
-  justify-content: center;
+  padding: 18px 30px;
+  outline: none;
   
+} 
+
+.contact input{
+  display:flexbox;
+  text-align: justify;
+  padding: 18px 30px;
+  gap:0px;
 }
 .section-title {
   color: #fff;
