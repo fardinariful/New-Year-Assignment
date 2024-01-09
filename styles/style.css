@@ -141,12 +141,22 @@ body {
   text-align: justify;
   margin: 140px;
 }
-.product {
+.product{
+  width: auto;
+  background-color: #FFF;;
   display: flex;
-  justify-content: center;
-  gap: 24px;
-  margin-top: auto;
+  justify-content:center;
+  gap:24px;
+  margin: 120px 640px;
+ 
+  
 }
+/* .product {
+  display: flex;
+  justify-content: space-around;
+  gap: 24PX;
+} */
+
 
 .last {
   text-align: center;
@@ -202,12 +212,13 @@ body {
 }
 .section-title {
   color: #fff;
+  width: 375px;
   font-family: "Inter", serif;
   padding-top: 150px;
-  padding-left: 40px;
+  padding-left: -10px;
+
   font-size: 20px;
   font-style: normal;
-  
 }
 .footer-column {
   display: flex;
@@ -231,14 +242,12 @@ body {
 .phn {
   display: flex;
   align-items: center;
-  gap:10px;
-
+  gap: 10px;
 }
-.web{
+.web {
   display: flex;
   align-items: center;
   gap: 10px;
-
 }
 .last-part {
   background-color: #070211;
