@@ -1,11 +1,12 @@
 body {
   font-family: "Merriweather", serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .middle-title1 {
   color: #ffffff;
   text-align: center;
-  font-size: 32px;
+  font-size: 35px;
   font-weight: 400;
 }
 .middle-title2 {
@@ -153,11 +154,7 @@ body {
 
   
 }
-/* .product {
-  display: flex;
-  justify-content: space-around;
-  gap: 24PX;
-} */
+
 
 
 .last {
@@ -188,7 +185,7 @@ body {
 .email {
   border-radius: 50px 0px 0px 50px;
   border: 0;
-  /* background: #fff; */
+  
   text-align: center;
   font-family: Inter;
   font-size: 18px;
@@ -197,8 +194,6 @@ body {
   line-height: normal;
 }
 .Subscribe {
-  /* border-top-right-radius: 16px;
-  border-bottom-right-radius: 16px; */
   border-radius: 0px 50px 50px 0px;
   border: 0;
   background: #f00;
@@ -210,7 +205,9 @@ body {
   font-weight: 600;
 }
 .contact {
-  padding-right: -5px;
+  display: inline;
+  justify-content: center;
+  
 }
 .section-title {
   color: #fff;
