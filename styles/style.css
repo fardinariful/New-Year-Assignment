@@ -116,6 +116,9 @@ body {
   text-transform: uppercase;
   padding: 10px 15px;
 }
+.offer{
+  display: flex;
+}
 .best {
   color: #f00;
   font-size: 16px;
@@ -142,13 +145,12 @@ body {
   margin: 140px;
 }
 .product{
-  width: auto;
-  background-color: #FFF;;
   display: flex;
-  justify-content:center;
+  flex-wrap: wrap;
+  justify-content:space-around;
   gap:24px;
-  margin: 120px 640px;
- 
+
+
   
 }
 /* .product {
